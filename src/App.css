@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+h1 {
+    font-family: 'Preahvihear', sans-serif;
+    color: bisque;
+}
+button {
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 30px;
+    border: none;
+    background-color: transparent;
+    color: #ddd6e8;
+    box-shadow: inset 0px 0px 0px 4px; 
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+  p {
+    font-size: 40px;
+    color: red;
+    font-weight: bolder;
+  }
